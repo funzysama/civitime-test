@@ -9,11 +9,11 @@ import shirt4 from "./assets/color-striped.svg";
 
 const shirtColors = () => {
     return <div className="icons-container">
-        <img src={shirt} className="icons first" alt=""/>
-        <img src={shirt1} className="icons" alt=""/>
-        <img src={shirt2} className="icons" alt=""/>
-        <img src={shirt3} className="icons" alt=""/>
-        <img src={shirt4} className="icons" alt=""/>
+        <img src={shirt} className="icons first" alt="t-shirt"/>
+        <img src={shirt1} className="icons" alt="T-shirt bleu"/>
+        <img src={shirt2} className="icons" alt="T-shirt vert"/>
+        <img src={shirt3} className="icons" alt="T-shirt rouge"/>
+        <img src={shirt4} className="icons" alt="T-shirt rayé bleu"/>
     </div>
 }
 export default shirtColors;

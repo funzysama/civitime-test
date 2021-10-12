@@ -1,11 +1,13 @@
 body{
     background-color: #dde1e7;
-    font-family: "Lucida Sans", sans-serif;
+    font-family: "Lucida Sans", sans-serif; /* pas certain sur la police utilisée dans les mock-ups */
     color: #3a3a3a;
 }
+
 hr {
     width: 35%;
 }
+
 .main-container{
     width: 100%;
     height: 100%;

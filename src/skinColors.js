@@ -9,11 +9,11 @@ import skin4 from './assets/color-533724.svg';
 
 const skinColors = () => {
     return <div className="icons-container">
-        <img src={skin} className="icons first" alt=""/>
-        <img src={skin1} className="icons" alt=""/>
-        <img src={skin2} className="icons" alt=""/>
-        <img src={skin3} className="icons" alt=""/>
-        <img src={skin4} className="icons" alt=""/>
+        <img src={skin} className="icons first" alt="skin"/>
+        <img src={skin1} className="icons" alt="peau albinos"/>
+        <img src={skin2} className="icons" alt="peau blanche"/>
+        <img src={skin3} className="icons" alt="peau jaune"/>
+        <img src={skin4} className="icons" alt="peau noire"/>
     </div>
 }
 export default skinColors;
