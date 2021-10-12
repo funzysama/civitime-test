@@ -10,7 +10,9 @@ import ShirtColors from './shirtColors';
 const App = () => {
     return <div className="main-container">
             <div className="profil-container">
+
                 <div className="title">PROFIL</div>
+
                 <div className="intern-container">
                     <div className="question">Lequel de ces deux avatars préférez-vous ?</div>
                     <div className="portrait-container">
@@ -26,13 +28,15 @@ const App = () => {
                         />
                     </div>
                     <hr/>
-                        <SkinColors/>
-                        <ShirtColors/>
+                    <SkinColors/>
+                    <ShirtColors/>
                     <div className="submit-container">
                         <button className="submit-button">VALIDER</button>
                     </div>
                 </div>
+
             </div>
+
         </div>
 }
 export default App;
